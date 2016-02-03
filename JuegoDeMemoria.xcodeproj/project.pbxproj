@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E9323E1F1C6252A40074B0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9323E1E1C6252A40074B0AC /* AppDelegate.swift */; };
-		E9323E211C6252A40074B0AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9323E201C6252A40074B0AC /* ViewController.swift */; };
-		E9323E241C6252A40074B0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9323E221C6252A40074B0AC /* Main.storyboard */; };
-		E9323E261C6252A40074B0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9323E251C6252A40074B0AC /* Assets.xcassets */; };
-		E9323E291C6252A40074B0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9323E271C6252A40074B0AC /* LaunchScreen.storyboard */; };
-		E9323E341C6252A40074B0AC /* JuegoDeMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9323E331C6252A40074B0AC /* JuegoDeMemoriaTests.swift */; };
-		E9323E3F1C6252A40074B0AC /* JuegoDeMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9323E3E1C6252A40074B0AC /* JuegoDeMemoriaUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		E9323E301C6252A40074B0AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9323E1B1C6252A30074B0AC /* JuegoDeMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoDeMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9323E1E1C6252A40074B0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9323E201C6252A40074B0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9323E231C6252A40074B0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9323E251C6252A40074B0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E9323E281C6252A40074B0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E9323E2A1C6252A40074B0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9323E2F1C6252A40074B0AC /* JuegoDeMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoDeMemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9323E331C6252A40074B0AC /* JuegoDeMemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoDeMemoriaTests.swift; sourceTree = "<group>"; };
-		E9323E351C6252A40074B0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9323E3A1C6252A40074B0AC /* JuegoDeMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoDeMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9323E3E1C6252A40074B0AC /* JuegoDeMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoDeMemoriaUITests.swift; sourceTree = "<group>"; };
-		E9323E401C6252A40074B0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9323E1B1C6252A30074B0AC /* JuegoDeMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = JuegoDeMemoria.app; path = "/Users/vicente/Desktop/Programs/JuegoDeMemoria/build/Debug-iphoneos/JuegoDeMemoria.app"; sourceTree = "<absolute>"; };
+		E9323E2F1C6252A40074B0AC /* JuegoDeMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JuegoDeMemoriaTests.xctest; path = "/Users/vicente/Desktop/Programs/JuegoDeMemoria/build/Debug-iphoneos/JuegoDeMemoriaTests.xctest"; sourceTree = "<absolute>"; };
+		E9323E3A1C6252A40074B0AC /* JuegoDeMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JuegoDeMemoriaUITests.xctest; path = "/Users/vicente/Desktop/Programs/JuegoDeMemoria/build/Debug-iphoneos/JuegoDeMemoriaUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +57,7 @@
 		E9323E121C6252A30074B0AC = {
 			isa = PBXGroup;
 			children = (
-				E9323E1D1C6252A30074B0AC /* JuegoDeMemoria */,
-				E9323E321C6252A40074B0AC /* JuegoDeMemoriaTests */,
-				E9323E3D1C6252A40074B0AC /* JuegoDeMemoriaUITests */,
-				E9323E1C1C6252A30074B0AC /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E9323E1C1C6252A30074B0AC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9323E1B1C6252A30074B0AC /* JuegoDeMemoria.app */,
-				E9323E2F1C6252A40074B0AC /* JuegoDeMemoriaTests.xctest */,
-				E9323E3A1C6252A40074B0AC /* JuegoDeMemoriaUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E9323E1D1C6252A30074B0AC /* JuegoDeMemoria */ = {
-			isa = PBXGroup;
-			children = (
-				E9323E1E1C6252A40074B0AC /* AppDelegate.swift */,
-				E9323E201C6252A40074B0AC /* ViewController.swift */,
-				E9323E221C6252A40074B0AC /* Main.storyboard */,
-				E9323E251C6252A40074B0AC /* Assets.xcassets */,
-				E9323E271C6252A40074B0AC /* LaunchScreen.storyboard */,
-				E9323E2A1C6252A40074B0AC /* Info.plist */,
-			);
-			path = JuegoDeMemoria;
-			sourceTree = "<group>";
-		};
-		E9323E321C6252A40074B0AC /* JuegoDeMemoriaTests */ = {
-			isa = PBXGroup;
-			children = (
-				E9323E331C6252A40074B0AC /* JuegoDeMemoriaTests.swift */,
-				E9323E351C6252A40074B0AC /* Info.plist */,
-			);
-			path = JuegoDeMemoriaTests;
-			sourceTree = "<group>";
-		};
-		E9323E3D1C6252A40074B0AC /* JuegoDeMemoriaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E9323E3E1C6252A40074B0AC /* JuegoDeMemoriaUITests.swift */,
-				E9323E401C6252A40074B0AC /* Info.plist */,
-			);
-			path = JuegoDeMemoriaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +148,7 @@
 				Base,
 			);
 			mainGroup = E9323E121C6252A30074B0AC;
-			productRefGroup = E9323E1C1C6252A30074B0AC /* Products */;
+			productRefGroup = E9323E121C6252A30074B0AC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +164,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9323E291C6252A40074B0AC /* LaunchScreen.storyboard in Resources */,
-				E9323E261C6252A40074B0AC /* Assets.xcassets in Resources */,
-				E9323E241C6252A40074B0AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9323E211C6252A40074B0AC /* ViewController.swift in Sources */,
-				E9323E1F1C6252A40074B0AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9323E341C6252A40074B0AC /* JuegoDeMemoriaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9323E3F1C6252A40074B0AC /* JuegoDeMemoriaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +219,6 @@
 			targetProxy = E9323E3B1C6252A40074B0AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E9323E221C6252A40074B0AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9323E231C6252A40074B0AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E9323E271C6252A40074B0AC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9323E281C6252A40074B0AC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E9323E411C6252A40074B0AC /* Debug */ = {
@@ -484,6 +393,7 @@
 				E9323E451C6252A40074B0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9323E461C6252A40074B0AC /* Build configuration list for PBXNativeTarget "JuegoDeMemoriaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +402,7 @@
 				E9323E481C6252A40074B0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9323E491C6252A40074B0AC /* Build configuration list for PBXNativeTarget "JuegoDeMemoriaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +411,7 @@
 				E9323E4B1C6252A40074B0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
