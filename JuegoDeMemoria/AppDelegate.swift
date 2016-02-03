@@ -6,6 +6,9 @@
 //  Copyright © 2016 VNoguez. All rights reserved.
 //
 
+
+// This program will be deleted to leave the Playground only
+
 import UIKit
 
 @UIApplicationMain
